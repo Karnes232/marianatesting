@@ -21,21 +21,20 @@ p.legend {
 }
 
 .index-picture {
-  max-height: 50vh;
+  position: relative;
+  max-height: 20vh;
   overflow: hidden;
+  text-align: center;
 }
 
-.index-picture2 {
-  max-height: 50vh;
-  overflow: hidden;
+.headings {
+    position: absolute;
+    color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.8rem;
+    font-family: Helvetica, sans-serif;
 }
 
-.index-picture2 p {
-  position: absolute;
-  top: 44vh;
-}
 
-.index-picture p {
-  position: absolute;
-  top: 49vh;
-}

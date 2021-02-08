@@ -60,7 +60,7 @@ function Diving() {
                 {divingInfo.map((item, index) => {
                     return (
                         <div key={index}>
-                            <img src={item.img} alt="Scuba Diving Punta Cana"/>
+                            <img src={item.img} alt="Scuba Diving Punta Cana"  />
                             <p className="legend" onClick={()=>handleOpen(item.text, item.description, item.price, item.price2)}>{item.text}</p>
                             <Modal
                                 aria-labelledby="transition-modal-title"
