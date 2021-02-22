@@ -5,12 +5,12 @@ body {
 }
 
 .carousel-wrapper-home {
-  height: 100vh;
+  height: 98vh;
   width: 100vw;
 }
 
 .carousel-wrapper-home img {
-  height: 100vh;
+  height: 98vh;
   width: 100vw;
 }
 
@@ -18,11 +18,12 @@ p.legend {
   color: white !important;
   opacity: 0.75 !important;
   font-size: 16px !important;
+  bottom: 100px !important;
 }
 
 .index-picture {
   position: relative;
-  max-height: 20vh;
+  max-height: 19.5vh;
   overflow: hidden;
   text-align: center;
 }
