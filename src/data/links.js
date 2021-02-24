@@ -1,5 +1,9 @@
 export default [
   {
+    path: "/",
+    text: "Home",
+  },
+  {
     path: "/diving",
     text: "Scuba Diving",
   },

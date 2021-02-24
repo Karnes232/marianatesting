@@ -14,9 +14,7 @@ const Navbar = () => {
   return (
     <NavStyles>
       <div className="masthead flex-container">
-      <Link className="nav-link"  to="/">
-        <img src={Logo} alt="Logo" />
-      </Link>
+      <div></div>
         <button
           className={isOpen ? "toggle-btn toggle-btn-active" : "toggle-btn"}
           type="button"
